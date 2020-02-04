@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9aa4e233-aed6-4205-8b93-ba77c4f0302e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batterychecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/batterychecker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580811178203</updated>
-      <workItem from="1580811182194" duration="7825000" />
+      <workItem from="1580811182194" duration="8489000" />
     </task>
     <servers />
   </component>

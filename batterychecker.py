@@ -23,7 +23,7 @@ class AwesomeStatusBarApp(rumps.App):
     def __init__(self):
         super(AwesomeStatusBarApp, self).__init__("App")
         self.icon = "icon/2%.png"
-        self.roop_time = 1
+        self.roop_time = 60
         self.battery_per_cache = None
         self.notification_status = 0
         battery_check_thread = threading.Thread(target=self.battery_check)
