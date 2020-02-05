@@ -12,7 +12,7 @@ class AwesomeStatusBarApp(rumps.App):
     def __init__(self):
         super(AwesomeStatusBarApp, self).__init__("App")
         battery_per = battery()
-        self.notific(battery_per,50)
+        self.notific(battery_per,40)
         self.roop_time = 60
         self.battery_per_cache = None
         self.notification_status = 0
@@ -45,7 +45,7 @@ class AwesomeStatusBarApp(rumps.App):
         pync.notify(str(parsent)+"%やで",title="ばってりーちぇっかー。", appIcon="icon/{}%.png".format(str(icon)))
 
         print("notific",str(parsent)+"%やで")
-        self.icon = "icon/{}%.png".format(str(parsent))
+        self.icon = "icon/{}%.png".format(str(icon))
 
     # def notify(self, message,icon):
     #     t = '-title {!r}'.format("ばってりーちぇっかー。")
