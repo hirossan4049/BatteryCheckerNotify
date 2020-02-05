@@ -1,33 +1,25 @@
-# import os
 import threading
 import time
-
 import psutil
 import rumps
-
 import pync
 
 def battery():
     return psutil.sensors_battery().percent
 
-# for i in range(100):
-#     battery_per = battery()
-#     if battery_per % 10 == 0:
-#         print("BATTERY!",str(battery_per))
-#     else:
-#         print("fmmm")
-#
-#     time.sleep(1)
 
 class AwesomeStatusBarApp(rumps.App):
     def __init__(self):
         super(AwesomeStatusBarApp, self).__init__("App")
-        self.icon = "icon/2%.png"
+        battery_per = battery()
+        self.notific(battery_per,50)
         self.roop_time = 60
         self.battery_per_cache = None
         self.notification_status = 0
         battery_check_thread = threading.Thread(target=self.battery_check)
         battery_check_thread.start()
+
+
 
     @rumps.clicked("通知を停止")
     def onoff(self, sender):
@@ -48,9 +40,9 @@ class AwesomeStatusBarApp(rumps.App):
         pync.notify("てすと通知。",title="ばってりーちぇっかー。", appIcon="icon.icns")
         # self.notific(10000000)
 
-    def notific(self,parsent):
+    def notific(self,parsent,icon):
         # rumps.notification("バッテリーチェッカー", str(parsent)+"%やで","",icon="icon/{}%.png".format(str(parsent)))
-        pync.notify(str(parsent)+"%やで",title="ばってりーちぇっかー。", appIcon="icon/{}%.png".format(str(parsent)))
+        pync.notify(str(parsent)+"%やで",title="ばってりーちぇっかー。", appIcon="icon/{}%.png".format(str(icon)))
 
         print("notific",str(parsent)+"%やで")
         self.icon = "icon/{}%.png".format(str(parsent))
@@ -69,7 +61,7 @@ class AwesomeStatusBarApp(rumps.App):
             if battery_per % 10 == 0:
                 if not (self.battery_per_cache == battery_per):
                     if not (self.notification_status == 1):
-                        self.notific(battery_per)
+                        self.notific(battery_per,battery_per)
                         self.battery_per_cache = battery_per
                         print("BATTERY!",battery_per)
 

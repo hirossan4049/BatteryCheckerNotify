@@ -83,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580811178203</updated>
-      <workItem from="1580811182194" duration="8489000" />
+      <workItem from="1580811182194" duration="8707000" />
+      <workItem from="1580862357726" duration="274000" />
     </task>
     <servers />
   </component>
@@ -95,40 +96,45 @@
       <screen x="-1920" y="567" width="1920" height="1200" />
     </state>
     <state x="-1496" y="829" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580811325904" />
-    <state width="1878" height="337" key="GridCell.Tab.0.bottom" timestamp="1580820185071">
+    <state width="1878" height="337" key="GridCell.Tab.0.bottom" timestamp="1580862631606">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402659" />
+    <state width="1878" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1580862631606" />
+    <state width="1878" height="337" key="GridCell.Tab.0.center" timestamp="1580862631605">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="414" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402659" />
+    <state width="1878" height="337" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1580862631605" />
+    <state width="1878" height="337" key="GridCell.Tab.0.left" timestamp="1580862631604">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="414" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402658" />
+    <state width="1878" height="337" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1580862631604" />
+    <state width="1878" height="337" key="GridCell.Tab.0.right" timestamp="1580862631605">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="414" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402659" />
+    <state width="1878" height="337" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1580862631605" />
+    <state width="1878" height="414" key="GridCell.Tab.1.bottom" timestamp="1580825402660">
       <screen x="-1920" y="567" width="1920" height="1200" />
     </state>
-    <state width="1878" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580820185071" />
-    <state width="1878" height="337" key="GridCell.Tab.0.center" timestamp="1580820185070">
+    <state width="1878" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402660" />
+    <state width="1878" height="414" key="GridCell.Tab.1.center" timestamp="1580825402660">
       <screen x="-1920" y="567" width="1920" height="1200" />
     </state>
-    <state width="1878" height="337" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580820185070" />
-    <state width="1878" height="337" key="GridCell.Tab.0.left" timestamp="1580820185069">
+    <state width="1878" height="414" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402660" />
+    <state width="1878" height="414" key="GridCell.Tab.1.left" timestamp="1580825402660">
       <screen x="-1920" y="567" width="1920" height="1200" />
     </state>
-    <state width="1878" height="337" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580820185069" />
-    <state width="1878" height="337" key="GridCell.Tab.0.right" timestamp="1580820185071">
+    <state width="1878" height="414" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402660" />
+    <state width="1878" height="414" key="GridCell.Tab.1.right" timestamp="1580825402660">
       <screen x="-1920" y="567" width="1920" height="1200" />
     </state>
-    <state width="1878" height="337" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580820185071" />
-    <state width="1878" height="414" key="GridCell.Tab.1.bottom" timestamp="1580811658430">
-      <screen x="-1920" y="567" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="414" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580811658430" />
-    <state width="1878" height="414" key="GridCell.Tab.1.center" timestamp="1580811658429">
-      <screen x="-1920" y="567" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="414" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580811658429" />
-    <state width="1878" height="414" key="GridCell.Tab.1.left" timestamp="1580811658429">
-      <screen x="-1920" y="567" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="414" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580811658429" />
-    <state width="1878" height="414" key="GridCell.Tab.1.right" timestamp="1580811658429">
-      <screen x="-1920" y="567" width="1920" height="1200" />
-    </state>
-    <state width="1878" height="414" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580811658429" />
+    <state width="1878" height="414" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.567.1920.1200@-1920.567.1920.1200" timestamp="1580825402660" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/batterychecker$batterychecker.coverage" NAME="batterychecker Coverage Results" MODIFIED="1580862631599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/batterychecker$main.coverage" NAME="batterychecker Coverage Results" MODIFIED="1580820110729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
