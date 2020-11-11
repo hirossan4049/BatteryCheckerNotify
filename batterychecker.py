@@ -29,19 +29,14 @@ class AwesomeStatusBarApp(rumps.App):
 
     @rumps.clicked("設定")
     def prefs(self, _):
-        rumps.alert("まだでけてへん。")
+        rumps.alert("comming soon...")
 
 
     @rumps.clicked("テスト通知")
     def sayhi(self, _):
-        # self.notify("てすと。","icon/100%.png")
-        # rumps.notification("バッテリーチェッカー",battery()+"%やで","")
-        # os.system("""osascript -e 'display notification "てすと。" with title "ばってりーちぇっかー。"'""")
         pync.notify("てすと通知。",title="ばってりーちぇっかー。", appIcon="icon.icns")
-        # self.notific(10000000)
 
     def notific(self,parsent,icon):
-        # rumps.notification("バッテリーチェッカー", str(parsent)+"%やで","",icon="icon/{}%.png".format(str(parsent)))
         pync.notify(str(parsent)+"%やで",title="ばってりーちぇっかー。", appIcon="icon/{}%.png".format(str(icon)))
 
         print("notific",str(parsent)+"%やで")
